@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="translucent_red">#80ff0000</color>
+    <color name="translucent_green">#8000ff00</color>
+    <color name="translucent_blue">#800000ff</color>
+    <color name="translucent_black">#80000000</color>
+</resources>

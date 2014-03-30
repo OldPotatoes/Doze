@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android">
+		<TextView 
+			android:id="@+id/title" 
+			android:text="@string/titleDoze" 
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:gravity="center_horizontal" 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent"
+			android:layout_centerHorizontal="true"
+			/>
+		<TextView 
+			android:id="@+id/purpose" 
+			android:text="@string/labelApplicationPurpose" 
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:gravity="center_horizontal" 
+			android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:layout_centerHorizontal="true" 
+			android:textColor="#fff"
+			/>
+		<TextView 
+			android:id="@+id/textWarning" 
+			android:text="@string/labelApplicationWarning" 
+			android:textAppearance="?android:attr/textAppearanceSmall" 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:textSize="10dp" 
+			android:layout_centerHorizontal="true" 
+			android:textColor="#fff"
+			/>
+
+	    <TableLayout android:id="@+id/tableLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+	        <TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:layout_width="wrap_content">
+				<Button
+					android:id="@+id/dozeSelect"
+					android:text="@string/DozeLabel"
+					android:background="@drawable/button_red" 
+					style="@style/ButtonText"
+				/>
+	
+				<TextView 
+					android:id="@+id/dozeDisplay" 
+					android:text="@string/BlankTime" 
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					style="@style/TimeText"
+				/>
+	        </TableRow>
+			<TableRow 
+				android:id="@+id/tableRow2" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+			>
+				<Button
+					android:id="@+id/wakeSelect"
+					android:text="@string/WakeLabel"
+					android:background="@drawable/button_green" 
+					style="@style/ButtonText"
+				/>
+				<TextView 
+					android:id="@+id/wakeDisplay" 
+					android:text="@string/BlankTime" 
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content" 
+					style="@style/TimeText"
+				/>
+			</TableRow>
+	        <TableRow 
+	        	android:id="@+id/tableRow3" 
+	        	android:layout_width="wrap_content" 
+	        	android:layout_height="wrap_content"
+	        >
+				
+				<CheckBox android:id="@+id/onCheck"
+					android:text="@string/ActivateLabel"
+				    android:layout_height="wrap_content"
+					android:layout_width="wrap_content" 
+					android:layout_below="@id/wakeSelect"
+					android:layout_alignLeft="@id/dozeSelect"
+					style="@style/TimeText"
+				/>
+	        </TableRow>
+	    </TableLayout>
+	</LinearLayout>

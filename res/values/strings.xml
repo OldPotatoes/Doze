@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Doze</string>
+    <string name="DozeLabel">Doze off</string>
+    <string name="WakeLabel">Wake up</string>
+    <string name="ActivateLabel">Activate</string>
+    <string name="BlankTime">--:--:--</string>
+    <string name="DozeMessage">Dozing off</string>
+    <string name="WakeMessage">Waking up</string>
+    <string name="messageDatabaseUpdating">Changing the laws of physics ...</string>
+    <string name="messageIn">in</string>
+    <string name="messageNow">now.</string>
+    <string name="messageAnd">and</string>
+    <string name="messageExactly">exactly.</string>
+    <string name="messageSecond">second</string>
+    <string name="messageSeconds">seconds</string>
+    <string name="messageMinute">minute</string>
+    <string name="messageMinutes">minutes</string>
+    <string name="messageHour">hour</string>
+    <string name="messageHours">hours</string>
+    <string name="titleDoze">Doze</string>
+    <string name="labelApplicationPurpose">Set the times you want your phone to switch to airplane mode and back.</string>
+    <string name="labelApplicationWarning">While in airplane mode, battery usage is reduced and no calls, messages or emails will be received.</string>
+</resources>
